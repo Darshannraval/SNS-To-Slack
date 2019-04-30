@@ -1,4 +1,4 @@
- = require('https');
+var https = require('https');
 var util = require('util');
 
 exports.handler = function(event, context) {
